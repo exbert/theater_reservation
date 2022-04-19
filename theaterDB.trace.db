@@ -1,0 +1,9 @@
+2022-03-25 23:20:44 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM INFORMATION_SCHEMA.VIEWS INFORMATION_SCHEMA.[*]TABLES"; SQL statement:
+SELECT * FROM INFORMATION_SCHEMA.VIEWS INFORMATION_SCHEMA.TABLES [42000-200]
+2022-03-25 23:21:11 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM INFORMATION_SCHEMA.VIEWS INFORMATION_SCHEMA.[*]TABLES INFORMATION_SCHEMA.SESSIONS"; SQL statement:
+SELECT * FROM INFORMATION_SCHEMA.VIEWS INFORMATION_SCHEMA.TABLES INFORMATION_SCHEMA.SESSIONS [42000-200]
+2022-03-25 23:27:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE SEAT (ID BIGINT NOT NULL, DESCRIPTION VARCHAR(255), NUM INTEGER NOT NULL, PRICE DECIMAL(19,2), ROW[*] CHAR(255) NOT NULL, PRIMARY KEY (ID))"; expected "identifier"; SQL statement:
+create table seat (id bigint not null, description varchar(255), num integer not null, price decimal(19,2), row char(255) not null, primary key (id)) [42001-200]
